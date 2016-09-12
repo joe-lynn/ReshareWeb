@@ -4,52 +4,12 @@
     <title>Reshare</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/rentProjectWeb/css/animate.css">
-    <link rel="stylesheet" href="/rentProjectWeb/css/myCSS.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="rentProjectWeb/js/myJavascript.js"></script>
+    <link rel="stylesheet" href="/vendor/bootstrap/bootstrap.css">
+    <script src="/vendor/bootstrap/bootstrap.js"></script>
 </head>
 <body>
-<div class="row">
-    <div class="col-md-12">
-        <div class="loadingLogo animated fadeIn">
-            <img class="img-responsive" src="media/images/loadingLogo.png" alt="Logo" style="margin-top: 25%; margin-bottom: 20%;">
-        </div>
-    </div>
-</div>
 
-<div class="row">
-    <div class="col-md-12">
-        <div class="loadingCube animated fadeIn">
-            <div class="sk-folding-cube">
-                <div class="sk-cube1 sk-cube"></div>
-                <div class="sk-cube2 sk-cube"></div>
-                <div class="sk-cube4 sk-cube"></div>
-                <div class="sk-cube3 sk-cube"></div>
-            </div>
-        </div>
-    </div>
-</div>
 
-<script>
-
-    var timer = setTimeout(function() {
-        $(function() {
-            $(".loadingCube").removeClass("fadeIn");
-            $(".loadingLogo").removeClass("fadeIn");
-            $(".loadingCube").addClass("fadeOutDown");
-            //$(".loadingLogo").addClass("fadeOut");
-        });
-    }, 3500);
-
-    var timer2 = setTimeout(function(){
-       // $(".authenticationBox").addClass("fadeIn");
-        //$(".authenticationBox").removeClass("joesHide");
-        window.location='html/authentication.html'
-    }, 4600)
-</script>
 
 </body>
 </html>
